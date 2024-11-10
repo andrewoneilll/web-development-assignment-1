@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang= "en" >
+<head>
+	<title>Andrew O'Neill</title>
+  <meta charset= "UTF-8" >
+</head>
+<body>
+	
+<header>
+	<h3 class = "title" >Andrew O'Neill</h3>
+	<img src= "images/img_1.jpg" alt= "Me, Amsterdam" class = "header_image" width= "150" height= "150" >
+</header>
+<nav>
+	<ul>
+		<li><a href= "index.html" >Introduction - Home</a></li>
+		<li><a href= "intro.html" >About Me</a></li>
+		<li><a href= "hobbies.html" >Hobbies</a></li>
+		<li><a href= "gallery.html" >Gallery</a></li>
+	</ul>
+</nav>
+<main>
+	<figure>
+		<img src= "images/cat.HEIC" alt= "cat pic" class= "images" width= "200" height= "auto" >
+		<figcaption>Cat Picture</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/drawing.jpg" alt= "tiger drawing 2" class= "images" width= "200 "height= "auto" >
+		<figcaption>Tiger Drawing</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/gizmo.jpg" alt= "gizmo" class= "images" width= "180" height= "auto" >
+		<figcaption>My dog - Gizmo</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/dam-1.HEIC" alt= "amsterdam" class= "images" width= "150 "height= "auto" >
+		<figcaption>Trip to Amsterdam</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/dam-2.jpg" alt= "anne frank" class= "images" width= "250" height= "auto" >
+		<figcaption>Anne Frank Bookshelf</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/rome-1.heic" alt= "rome" class= "images" width= "200" height= "auto" > 
+		<figcaption>Rome Photography</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/rome-2.HEIC" alt= "rome2" class= "images" width= "150" height= "auto" >
+		<figcaption>Rome Photography</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/rome-3.heic" alt=" rome3" class= "images" width= "220" height= "auto" >
+		<figcaption>Rome Photography</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/spain-1.jpg" alt= "spain" class= "images" width= "180" height= "auto" >
+		<figcaption>Spanish Cathedral</figcaption>
+	</figure>
+	<figure>
+		<img src= "images/spain-2.jpg" alt= "sea" class= "images" width= "150" height= "auto" >
+		<figcaption>Spanish Beach</figcaption>
+	</figure>
+</div>
+</main>
+</body>
+<section class= "footer" >
+	<div><table>
+	<caption>Contact Information</caption>
+	<tr>
+		<td>Email</td>
+		<td>20111763@mail.wit.ie</td>
+	</tr>
+	<tr>
+		<td>Phone</td>
+		<td>085 269 0235</td>
+	</tr>
+	<tr>
+		<td>Website</td>
+		<td><li><a href= "index.html" >Here</a></li></td>
+	</tr>
+</table>
+</div>
+</section>
+<style>
+	a {
+		font-weight:bold;
+		color:black;
+	}
+	nav ul {
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		justify-content:space-between;
+		background-color:#AEC6CF;
+		padding:10px;
+  	    border:2px solid black;
+  	    border-radius:8px;
+		font-family: 'Times New Roman', serif;
+	}
+	header {
+		display:flex;
+		align-items:center;
+		padding:10px;
+		border:2px solid black;
+		border-radius:8px;
+		background-color:#AEC6CF;
+		font-family: 'Times New Roman', serif;
+	}
+	.title {
+		margin: 0px auto;
+		font-size:30px;
+		text-align:center;
+	}
+	tr:nth-of-type(odd) {
+		background:#D3D3D3;
+	}
+    table {
+      border-collapse: collapse;
+      border: 2px solid black;
+      letter-spacing: 1px;
+      font-size: 16px;
+      margin:0em 0em 3em 1em;
+	  background-color:white;
+	  clear:both;
+	  font-family: 'Courier New', monospace;
+    }
+    td, th {
+      border: 1px solid rgb(190,190,190);
+      padding: 10px 20px;
+	  font-family: 'Times New Roman', serif;
+    }
+	caption {
+		text-align:left;
+		font-weight:bold;
+	}
+    th {
+      background-color: rgb(235,235,235);
+    }
+	.header_image {
+		width:150px;
+		height:150px;
+  	    border:2px solid black;
+  	    border-radius:8px;
+	}
+	figure {
+		position:relative;
+		width:120px;
+		height:auto;
+		margin:0 auto;
+	}
+	figcaption{
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+		background-color:white;
+		color:black;
+		padding:5px;
+		text-align:center;
+		font-size:16px;
+		box-sizing:border-box;
+	}
+	body {
+	      background-image: url(images/black-white-city.jpg);
+		  background-attachment:fixed;
+	}
+	.footer {
+		display:flex;
+		height:350px;
+		background-color:#AEC6CF;
+		margin-top:auto;
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;
+		width:100%;
+	}
+</style>
